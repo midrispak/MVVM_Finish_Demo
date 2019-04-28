@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		527FF3DD227610FD0060CD58 /* MVVM-Starter-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Starter-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527FF3DD227610FD0060CD58 /* MVVM_Starter_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_Starter_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527FF3E0227610FD0060CD58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527FF3E5227610FD0060CD58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		527FF3E7227610FF0060CD58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		527FF3DE227610FD0060CD58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				527FF3DD227610FD0060CD58 /* MVVM-Starter-Demo.app */,
+				527FF3DD227610FD0060CD58 /* MVVM_Starter_Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		527FF3DC227610FD0060CD58 /* MVVM-Starter-Demo */ = {
+		527FF3DC227610FD0060CD58 /* MVVM_Starter_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 527FF3EF227610FF0060CD58 /* Build configuration list for PBXNativeTarget "MVVM-Starter-Demo" */;
+			buildConfigurationList = 527FF3EF227610FF0060CD58 /* Build configuration list for PBXNativeTarget "MVVM_Starter_Demo" */;
 			buildPhases = (
 				527FF3D9227610FD0060CD58 /* Sources */,
 				527FF3DA227610FD0060CD58 /* Frameworks */,
@@ -145,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = "MVVM-Starter-Demo";
+			name = MVVM_Starter_Demo;
 			productName = "MVVM-Starter-Demo";
-			productReference = 527FF3DD227610FD0060CD58 /* MVVM-Starter-Demo.app */;
+			productReference = 527FF3DD227610FD0060CD58 /* MVVM_Starter_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 527FF3D8227610FD0060CD58 /* Build configuration list for PBXProject "MVVM-Starter-Demo" */;
+			buildConfigurationList = 527FF3D8227610FD0060CD58 /* Build configuration list for PBXProject "MVVM_Starter_Demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				527FF3DC227610FD0060CD58 /* MVVM-Starter-Demo */,
+				527FF3DC227610FD0060CD58 /* MVVM_Starter_Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -389,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		527FF3D8227610FD0060CD58 /* Build configuration list for PBXProject "MVVM-Starter-Demo" */ = {
+		527FF3D8227610FD0060CD58 /* Build configuration list for PBXProject "MVVM_Starter_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				527FF3ED227610FF0060CD58 /* Debug */,
@@ -398,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		527FF3EF227610FF0060CD58 /* Build configuration list for PBXNativeTarget "MVVM-Starter-Demo" */ = {
+		527FF3EF227610FF0060CD58 /* Build configuration list for PBXNativeTarget "MVVM_Starter_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				527FF3F0227610FF0060CD58 /* Debug */,
