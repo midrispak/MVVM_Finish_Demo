@@ -11,5 +11,5 @@ struct Movie : Decodable {
     
     let movieTitle: String
     let ratings: Float
-    let releaseDate: Date
+    let releaseDateString: String
 }

@@ -15,13 +15,13 @@ class WebService {
         
         // TODO: Fetch From API
         
-        let avengers = Movie.init(movieTitle: "The Avengers", ratings: 5.0, releaseDate: "04/26/2012".dateWithFormat(dateFormat: "MM/dd/yyyy"))
+        let avengers = Movie.init(movieTitle: "The Avengers", ratings: 5.0, releaseDateString: "04/26/2012")
         
-        let ageOfAltron = Movie.init(movieTitle: "Avengers: Age of Ultron", ratings: 4.0, releaseDate: "04/23/2015".dateWithFormat(dateFormat: "MM/dd/yyyy"))
+        let ageOfAltron = Movie.init(movieTitle: "Avengers: Age of Ultron", ratings: 4.0, releaseDateString: "04/23/2015")
         
-        let infinityWar = Movie.init(movieTitle: "Avengers: Infinity War", ratings: 8.2, releaseDate: "04/26/2019".dateWithFormat(dateFormat: "MM/dd/yyyy"))
+        let infinityWar = Movie.init(movieTitle: "Avengers: Infinity War", ratings: 8.2, releaseDateString: "04/26/2019")
         
-        let endGame = Movie.init(movieTitle: "Avengers - Endgame", ratings: 7.9, releaseDate: "04/26/2019".dateWithFormat(dateFormat: "MM/dd/yyyy"))
+        let endGame = Movie.init(movieTitle: "Avengers - Endgame", ratings: 7.9, releaseDateString: "04/26/2019")
         
         completion([avengers, ageOfAltron, infinityWar, endGame], nil)
         
