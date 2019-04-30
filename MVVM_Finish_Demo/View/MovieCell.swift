@@ -10,16 +10,12 @@ import UIKit
 
 class MovieCell: UITableViewCell {
     
-    var movie: Movie! {
+    var movieViewModel: MovieViewModel! {
         didSet {
-            self.textLabel?.text = movie.movieTitle
-            if movie.ratings < 6.0 {
-                self.detailTextLabel?.text = "It's FLOP"
-            }
-            else {
-                self.detailTextLabel?.text = "It's HIT"
-            }
+            self.textLabel?.text = movieViewModel.movieTitle
+            self.detailTextLabel?.text = movieViewModel.verdict
         }
+        
     }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
